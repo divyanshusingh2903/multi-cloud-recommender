@@ -80,7 +80,7 @@ This system implements a **4-stage retrieval-augmented LLM pipeline** that helps
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                        STAGE 3: LLM Reranking                               │
 │  • Pairwise comparison with sliding window (PRP-Sliding)                    │
-│  • Back-to-first bubblesort for O(k×N) efficiency                          │
+│  • Back-to-first bubblesort for O(k×N) efficiency                           │
 │  • k passes guarantee top-k accuracy                                        │
 └─────────────────────────────────────────────────────────────────────────────┘
                                       │
@@ -499,7 +499,7 @@ This project is developed for academic purposes as part of CSCE 670 at Texas A&M
 ## Acknowledgments
 
 - **Course**: CSCE 670 - Information Storage and Retrieval
-- **Instructor**: Dr. James Caverlee
+- **Instructor**: Dr. Yu Zhang
 - **Institution**: Texas A&M University
 
 ---
